@@ -1,0 +1,24 @@
+resolver: lts-7.14
+compiler: ghcjs-0.2.1.9007014_ghc-8.0.1
+compiler-check: match-exact
+
+setup-info:
+  ghcjs:
+    source:
+      ghcjs-0.2.1.9007014_ghc-8.0.1:
+        url: http://ghcjs.tolysz.org/ghc-8.0-2016-12-25-lts-7.14-9007014.tar.gz
+        sha1: 0d2ebe0931b29adca7cb9d9b9f77d60095bfb864
+      ghcjs-0.2.0.9006025_ghc-7.10.3:
+         url: http://ghcjs.tolysz.org/lts-6.25-9006025.tar.gz
+         sha1: 3c87228579b55c05e227a7876682c2a7d4c9c007
+
+packages:
+- '.'
+- location:
+    git: https://github.com/ghcjs/ghcjs-vdom
+    commit: '1c1175ba22eca6d7efa96f42a72290ade193c148'
+  extra-dep: true
+- location:
+    git: https://github.com/ghcjs/ghcjs-ffiqq
+    commit: 'b52338c2dcd3b0707bc8aff2e171411614d4aedb'
+  extra-dep: true
