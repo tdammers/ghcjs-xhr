@@ -16,8 +16,8 @@ cabal-version:       >=1.10
 library
   hs-source-dirs: src
   exposed-modules: JavaScript.XHR
-  build-depends: base
-               , ghcjs-base
-               , text
+  build-depends: base >= 4.8 && <5
+               , ghcjs-base >= 0.2 && <1
+               , text >= 1.2.2.1 && <2
   js-sources: src/impl.js
   default-language: Haskell2010
