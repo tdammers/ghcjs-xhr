@@ -4,6 +4,7 @@
 
 module JavaScript.XHR
 ( Method (..)
+, XHR
 , xhr
 , getStatus
 , getBody

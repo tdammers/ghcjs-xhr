@@ -1,13 +1,13 @@
 name:                ghcjs-xhr
 version:             0.1.0.0
-synopsis:            Initial project template from stack
+synopsis:            XmlHttpRequest ("AJAX") bindings for GHCJS
 description:         Please see README.md
-homepage:            https://github.com/tdammers/ghcjs-xhr#readme
+homepage:            https://github.com/tdammers/ghcjs-xhr
 license:             BSD3
 license-file:        LICENSE
 author:              Tobias Dammers
 maintainer:          tdammers@gmail.com
-copyright:           2016 Tobias Dammers
+copyright:           2017 Tobias Dammers
 category:            Web
 build-type:          Simple
 extra-source-files:  README.md
